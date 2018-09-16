@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM hseeberger/scala-sbt:latest
 ## Based on this example http://stackoverflow.com/a/40612088/865222
 ENV SONAR_SCANNER_VERSION 3.2.0.1227
 
