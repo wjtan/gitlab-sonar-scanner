@@ -1,6 +1,6 @@
 FROM openjdk:8-jdk-alpine
 ## Based on this example http://stackoverflow.com/a/40612088/865222
-ENV SONAR_SCANNER_VERSION 3.0.3.778
+ENV SONAR_SCANNER_VERSION 3.2.0.1227
 
 RUN apk add --no-cache wget nodejs && \
     wget https://sonarsource.bintray.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-${SONAR_SCANNER_VERSION}.zip && \
